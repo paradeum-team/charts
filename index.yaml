@@ -16,7 +16,53 @@ entries:
           url: https://github.com/dockette/adminer
     apiVersion: v2
     appVersion: 4.8.1
-    created: "2022-07-15T18:28:49.142454+08:00"
+    created: "2022-07-18T11:09:44.504329+08:00"
+    description: Adminer is a full-featured database management tool written in PHP.
+      Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
+      target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
+      MS SQL, Oracle, Firebird, SimpleDB, Elasticsearch and MongoDB
+    digest: 37085350b5086ff99de17b19bb166f76ec33d7015373e5c285647dfd970834ea
+    home: https://www.adminer.org
+    icon: https://raw.githubusercontent.com/paradeum-team/helm-charts/master/adminer/logo.png
+    keywords:
+    - adminer
+    - postgres
+    - mysql
+    - sqlite
+    - elasticsearch
+    - mongodb
+    - database
+    - sql
+    maintainers:
+    - email: faiez.zalila@cetic.be
+      name: fzalila
+      url: https://github.com/fzalila
+    - email: alexandre.nuttinck@cetic.be
+      name: alexnuttinck
+      url: https://github.com/alexnuttinck
+    - email: 75710541@qq.com
+      name: liujinye
+      url: https://github.com/ss75710541
+    name: adminer
+    urls:
+    - https://paradeum-team.github.io/helm-charts/adminer/adminer-0.1.9.tgz
+    version: 0.1.9
+  - annotations:
+      artifacthub.io/changes: |
+        - Dfdaemon adds defaultTag configuration.
+      artifacthub.io/images: |
+        - name: adminer
+          image: dockette/adminer:latest
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/paradeum-team/helm-adminer
+        - name: Source
+          url: https://github.com/vrana/adminer
+        - name: Dockerfile Source
+          url: https://github.com/dockette/adminer
+    apiVersion: v2
+    appVersion: 4.8.1
+    created: "2022-07-18T11:09:44.503076+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -62,7 +108,7 @@ entries:
           url: https://github.com/dockette/adminer
     apiVersion: v2
     appVersion: 4.8.1
-    created: "2022-07-15T18:28:49.141641+08:00"
+    created: "2022-07-18T11:09:44.499871+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -96,7 +142,7 @@ entries:
   blockscout:
   - apiVersion: v2
     appVersion: v4.1.3-beta.3
-    created: "2022-07-15T18:28:49.146428+08:00"
+    created: "2022-07-18T11:09:44.505399+08:00"
     description: A Helm chart for Kubernetes
     digest: 5644f2a9c2c4ed8e1fcbbe669c0a120c38d429efab7b1ef5724e6fb7a0033c27
     name: blockscout
@@ -107,7 +153,7 @@ entries:
   geth:
   - apiVersion: v2
     appVersion: 1.10.17
-    created: "2022-07-15T18:28:49.147996+08:00"
+    created: "2022-07-18T11:09:44.506593+08:00"
     description: A Helm chart for Ethereum geth client
     digest: f2ec57e5742673f15c29f36706bbbd7ef296a12e8e9c566aee070142f8d7e1fd
     home: https://ethereum.org/
@@ -125,4 +171,4 @@ entries:
     urls:
     - https://paradeum-team.github.io/helm-charts/geth/geth-0.2.7.tgz
     version: 0.2.7
-generated: "2022-07-15T18:28:49.139027+08:00"
+generated: "2022-07-18T11:09:44.497968+08:00"
