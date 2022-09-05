@@ -16,7 +16,7 @@ entries:
           url: https://github.com/dockette/adminer
     apiVersion: v2
     appVersion: 4.8.1
-    created: "2022-08-26T15:36:26.542209+08:00"
+    created: "2022-09-05T19:05:16.316871+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -62,7 +62,7 @@ entries:
           url: https://github.com/dockette/adminer
     apiVersion: v2
     appVersion: 4.8.1
-    created: "2022-08-26T15:36:26.540537+08:00"
+    created: "2022-09-05T19:05:16.315925+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -108,7 +108,7 @@ entries:
           url: https://github.com/dockette/adminer
     apiVersion: v2
     appVersion: 4.8.1
-    created: "2022-08-26T15:36:26.538917+08:00"
+    created: "2022-09-05T19:05:16.313457+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -142,7 +142,7 @@ entries:
   blockscout:
   - apiVersion: v2
     appVersion: v4.1.3-beta.3
-    created: "2022-08-26T15:36:26.543718+08:00"
+    created: "2022-09-05T19:05:16.317796+08:00"
     description: A Helm chart for Kubernetes
     digest: 5644f2a9c2c4ed8e1fcbbe669c0a120c38d429efab7b1ef5724e6fb7a0033c27
     name: blockscout
@@ -153,7 +153,7 @@ entries:
   geth:
   - apiVersion: v2
     appVersion: 1.10.17
-    created: "2022-08-26T15:36:26.545433+08:00"
+    created: "2022-09-05T19:05:16.318767+08:00"
     description: A Helm chart for Ethereum geth client
     digest: e53e14a5167b274fd8ba72387cbadc8a600756f997fb428cd816112bcb560782
     home: https://ethereum.org/
@@ -173,7 +173,7 @@ entries:
     version: 0.2.10
   - apiVersion: v2
     appVersion: 1.10.17
-    created: "2022-08-26T15:36:26.547055+08:00"
+    created: "2022-09-05T19:05:16.319608+08:00"
     description: A Helm chart for Ethereum geth client
     digest: f2ec57e5742673f15c29f36706bbbd7ef296a12e8e9c566aee070142f8d7e1fd
     home: https://ethereum.org/
@@ -199,7 +199,29 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-08-26T15:36:26.56281+08:00"
+    created: "2022-09-05T19:05:16.326393+08:00"
+    description: IPFS Cluster chart
+    digest: 24c72e068557808d2159c439a4f0bb70cfb3c37730d9deb8ffc80ea3ab6b804f
+    home: https://ipfscluster.io/
+    keywords:
+    - ipfs
+    - ipfs-cluster
+    maintainers:
+    - email: 75710541@qq.com
+      name: liujinye
+      url: https://github.com/ss75710541
+    name: ipfs-cluster
+    urls:
+    - https://paradeum-team.github.io/helm-charts/ipfs-cluster/ipfs-cluster-0.0.19.tgz
+    version: 0.0.19
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/paradeum-team/ipfs-cluster-chart
+        - name: Source
+          url: https://github.com/ipfs-cluster/ipfs-cluster
+    apiVersion: 1.0.2
+    created: "2022-09-05T19:05:16.325681+08:00"
     description: IPFS Cluster chart
     digest: b8d75049c2f27fedcdd6844cd4d7ed15c0982f0cbd5e8706768c81d4d6ea049e
     home: https://ipfscluster.io/
@@ -221,7 +243,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-08-26T15:36:26.559392+08:00"
+    created: "2022-09-05T19:05:16.32497+08:00"
     description: IPFS Cluster chart
     digest: 29c45a988fef490cb609ea4e2607015808ed1e907aa07cef3dd46d67ed81be0a
     home: https://ipfscluster.io/
@@ -243,7 +265,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-08-26T15:36:26.557812+08:00"
+    created: "2022-09-05T19:05:16.324252+08:00"
     description: IPFS Cluster chart
     digest: 7c190a1a4044153f2d6fc016c495ce591c7ada1a5a849cbd7cdf01c0e25b0d55
     home: https://ipfscluster.io/
@@ -265,7 +287,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-08-26T15:36:26.556283+08:00"
+    created: "2022-09-05T19:05:16.323544+08:00"
     description: IPFS Cluster chart
     digest: 3a63c9feb5e1f886faa8c84f52cf14059bf6dd3d3ee8de788e9f6a048fa712c9
     home: https://ipfscluster.io/
@@ -287,7 +309,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-08-26T15:36:26.554893+08:00"
+    created: "2022-09-05T19:05:16.322836+08:00"
     description: IPFS Cluster chart
     digest: 9b2449da6eac19a60a18e4818a53d0de12d0181a3b373a5c671077208a277c51
     home: https://ipfscluster.io/
@@ -309,7 +331,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-08-26T15:36:26.553263+08:00"
+    created: "2022-09-05T19:05:16.322062+08:00"
     description: IPFS Cluster chart
     digest: 7a142726ac6ee65203deb0abe5fe0f2a5a473e052c7b042ff206ba8ed72b2c57
     home: https://ipfscluster.io/
@@ -331,7 +353,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-08-26T15:36:26.551566+08:00"
+    created: "2022-09-05T19:05:16.321396+08:00"
     description: IPFS Cluster chart
     digest: 8c3e2f0fdb9266d439a11415615174fc9d6e9bfdb85ba2eef6a06eb396bad137
     home: https://ipfscluster.io/
@@ -353,7 +375,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-08-26T15:36:26.549904+08:00"
+    created: "2022-09-05T19:05:16.320765+08:00"
     description: IPFS Cluster chart
     digest: bd281028ee3478186181b8be1902c90a6c006fefa823a38b879a1e667f1afc0c
     home: https://ipfscluster.io/
@@ -375,7 +397,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-08-26T15:36:26.548495+08:00"
+    created: "2022-09-05T19:05:16.320141+08:00"
     description: IPFS Cluster chart
     digest: 10870264266e5bcc8a64f16a51ad0c8d84250b4d59b3e2b218c894c3fe4d69b7
     home: https://ipfscluster.io/
@@ -397,7 +419,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: v2
-    created: "2022-08-26T15:36:26.563905+08:00"
+    created: "2022-09-05T19:05:16.32782+08:00"
     description: IPFS Cluster chart
     digest: 0a5935923d3157f88d1a54235e181f2b54bf7ac0bea26fa0f14b0f92601f63b3
     home: https://ipfscluster.io/
@@ -412,4 +434,4 @@ entries:
     urls:
     - https://paradeum-team.github.io/helm-charts/ipfs-cluster/ipfs-cluster-0.0.9.tgz
     version: 0.0.9
-generated: "2022-08-26T15:36:26.533342+08:00"
+generated: "2022-09-05T19:05:16.312443+08:00"
