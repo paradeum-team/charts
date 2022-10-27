@@ -16,7 +16,7 @@ entries:
           url: https://github.com/dockette/adminer
     apiVersion: v2
     appVersion: 4.8.1
-    created: "2022-10-27T11:57:51.100356+08:00"
+    created: "2022-10-27T18:43:40.742628+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -62,7 +62,7 @@ entries:
           url: https://github.com/dockette/adminer
     apiVersion: v2
     appVersion: 4.8.1
-    created: "2022-10-27T11:57:51.098864+08:00"
+    created: "2022-10-27T18:43:40.740761+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -108,7 +108,7 @@ entries:
           url: https://github.com/dockette/adminer
     apiVersion: v2
     appVersion: 4.8.1
-    created: "2022-10-27T11:57:51.097368+08:00"
+    created: "2022-10-27T18:43:40.737041+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -145,10 +145,34 @@ entries:
         - name: Chart Source
           url: https://github.com/paradeum-team/geth-helm-charts/tree/main/blockscout
         - name: Source
+          url: https://github.com/paradeum-team/blockscout
+    apiVersion: v2
+    appVersion: 13573befcc6b94c68b4a05554377e101f36bd7fe
+    created: "2022-10-27T18:43:40.747663+08:00"
+    description: A Helm chart for Kubernetes
+    digest: bb12abb8653a48638127fdb61faff965b4d3b85b7e76db14c865bce2cc28d61f
+    home: https://github.com/paradeum-team/geth-helm-charts/tree/main/blockscout
+    keywords:
+    - ipfs
+    - ipfs-cluster
+    maintainers:
+    - email: 75710541@qq.com
+      name: liujinye
+      url: https://github.com/ss75710541
+    name: blockscout
+    type: application
+    urls:
+    - https://paradeum-team.github.io/helm-charts/blockscout/blockscout-0.1.4.tgz
+    version: 0.1.4
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/paradeum-team/geth-helm-charts/tree/main/blockscout
+        - name: Source
           url: https://github.com/blockscout/blockscout
     apiVersion: v2
     appVersion: v4.1.8-beta.3
-    created: "2022-10-27T11:57:51.104972+08:00"
+    created: "2022-10-27T18:43:40.745759+08:00"
     description: A Helm chart for Kubernetes
     digest: 0a1c2c73f8b44669ccd18cb5803e58c1e5cc07eb2e7418f2465e3e92ad2c4493
     home: https://github.com/blockscout/blockscout
@@ -166,7 +190,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v4.1.3-beta.3
-    created: "2022-10-27T11:57:51.104053+08:00"
+    created: "2022-10-27T18:43:40.744288+08:00"
     description: A Helm chart for Kubernetes
     digest: 5644f2a9c2c4ed8e1fcbbe669c0a120c38d429efab7b1ef5724e6fb7a0033c27
     name: blockscout
@@ -177,7 +201,7 @@ entries:
   geth:
   - apiVersion: v2
     appVersion: 1.10.17
-    created: "2022-10-27T11:57:51.106826+08:00"
+    created: "2022-10-27T18:43:40.74941+08:00"
     description: A Helm chart for Ethereum geth client
     digest: e53e14a5167b274fd8ba72387cbadc8a600756f997fb428cd816112bcb560782
     home: https://ethereum.org/
@@ -197,7 +221,7 @@ entries:
     version: 0.2.10
   - apiVersion: v2
     appVersion: 1.10.17
-    created: "2022-10-27T11:57:51.108227+08:00"
+    created: "2022-10-27T18:43:40.750812+08:00"
     description: A Helm chart for Ethereum geth client
     digest: f2ec57e5742673f15c29f36706bbbd7ef296a12e8e9c566aee070142f8d7e1fd
     home: https://ethereum.org/
@@ -223,7 +247,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-10-27T11:57:51.125542+08:00"
+    created: "2022-10-27T18:43:40.768374+08:00"
     description: IPFS Cluster chart
     digest: 24c72e068557808d2159c439a4f0bb70cfb3c37730d9deb8ffc80ea3ab6b804f
     home: https://ipfscluster.io/
@@ -245,7 +269,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-10-27T11:57:51.121879+08:00"
+    created: "2022-10-27T18:43:40.766815+08:00"
     description: IPFS Cluster chart
     digest: b8d75049c2f27fedcdd6844cd4d7ed15c0982f0cbd5e8706768c81d4d6ea049e
     home: https://ipfscluster.io/
@@ -267,7 +291,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-10-27T11:57:51.120136+08:00"
+    created: "2022-10-27T18:43:40.76522+08:00"
     description: IPFS Cluster chart
     digest: 29c45a988fef490cb609ea4e2607015808ed1e907aa07cef3dd46d67ed81be0a
     home: https://ipfscluster.io/
@@ -289,7 +313,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-10-27T11:57:51.118421+08:00"
+    created: "2022-10-27T18:43:40.76358+08:00"
     description: IPFS Cluster chart
     digest: 7c190a1a4044153f2d6fc016c495ce591c7ada1a5a849cbd7cdf01c0e25b0d55
     home: https://ipfscluster.io/
@@ -311,7 +335,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-10-27T11:57:51.117204+08:00"
+    created: "2022-10-27T18:43:40.762295+08:00"
     description: IPFS Cluster chart
     digest: 3a63c9feb5e1f886faa8c84f52cf14059bf6dd3d3ee8de788e9f6a048fa712c9
     home: https://ipfscluster.io/
@@ -333,7 +357,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-10-27T11:57:51.115941+08:00"
+    created: "2022-10-27T18:43:40.760931+08:00"
     description: IPFS Cluster chart
     digest: 9b2449da6eac19a60a18e4818a53d0de12d0181a3b373a5c671077208a277c51
     home: https://ipfscluster.io/
@@ -355,7 +379,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-10-27T11:57:51.114645+08:00"
+    created: "2022-10-27T18:43:40.75766+08:00"
     description: IPFS Cluster chart
     digest: 7a142726ac6ee65203deb0abe5fe0f2a5a473e052c7b042ff206ba8ed72b2c57
     home: https://ipfscluster.io/
@@ -377,7 +401,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-10-27T11:57:51.113291+08:00"
+    created: "2022-10-27T18:43:40.756034+08:00"
     description: IPFS Cluster chart
     digest: 8c3e2f0fdb9266d439a11415615174fc9d6e9bfdb85ba2eef6a06eb396bad137
     home: https://ipfscluster.io/
@@ -399,7 +423,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-10-27T11:57:51.111718+08:00"
+    created: "2022-10-27T18:43:40.754093+08:00"
     description: IPFS Cluster chart
     digest: bd281028ee3478186181b8be1902c90a6c006fefa823a38b879a1e667f1afc0c
     home: https://ipfscluster.io/
@@ -421,7 +445,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-10-27T11:57:51.109939+08:00"
+    created: "2022-10-27T18:43:40.752371+08:00"
     description: IPFS Cluster chart
     digest: 10870264266e5bcc8a64f16a51ad0c8d84250b4d59b3e2b218c894c3fe4d69b7
     home: https://ipfscluster.io/
@@ -443,7 +467,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: v2
-    created: "2022-10-27T11:57:51.126744+08:00"
+    created: "2022-10-27T18:43:40.76967+08:00"
     description: IPFS Cluster chart
     digest: 0a5935923d3157f88d1a54235e181f2b54bf7ac0bea26fa0f14b0f92601f63b3
     home: https://ipfscluster.io/
@@ -458,4 +482,4 @@ entries:
     urls:
     - https://paradeum-team.github.io/helm-charts/ipfs-cluster/ipfs-cluster-0.0.9.tgz
     version: 0.0.9
-generated: "2022-10-27T11:57:51.09495+08:00"
+generated: "2022-10-27T18:43:40.734076+08:00"
