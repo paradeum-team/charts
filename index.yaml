@@ -16,7 +16,7 @@ entries:
           url: https://github.com/dockette/adminer
     apiVersion: v2
     appVersion: 4.8.1
-    created: "2022-11-17T17:57:49.701534+08:00"
+    created: "2022-12-16T12:08:20.647976+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -62,7 +62,7 @@ entries:
           url: https://github.com/dockette/adminer
     apiVersion: v2
     appVersion: 4.8.1
-    created: "2022-11-17T17:57:49.698472+08:00"
+    created: "2022-12-16T12:08:20.645648+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -108,7 +108,7 @@ entries:
           url: https://github.com/dockette/adminer
     apiVersion: v2
     appVersion: 4.8.1
-    created: "2022-11-17T17:57:49.696796+08:00"
+    created: "2022-12-16T12:08:20.642496+08:00"
     description: Adminer is a full-featured database management tool written in PHP.
       Conversely to phpMyAdmin, it consist of a single file ready to deploy to the
       target server. Adminer is available for MySQL, MariaDB, PostgreSQL, SQLite,
@@ -147,8 +147,32 @@ entries:
         - name: Source
           url: https://github.com/paradeum-team/blockscout
     apiVersion: v2
+    appVersion: c3f2caf8ed0bfb5e0992520b9e270f699c9a404e
+    created: "2022-12-16T12:08:20.654682+08:00"
+    description: A Helm chart for Kubernetes
+    digest: 99ae75a8f20bfcde4cf015585db16f4a205436e6c9b4acf6df9b0f77fdcf4bf5
+    home: https://github.com/paradeum-team/geth-helm-charts/tree/main/blockscout
+    keywords:
+    - ipfs
+    - ipfs-cluster
+    maintainers:
+    - email: 75710541@qq.com
+      name: liujinye
+      url: https://github.com/ss75710541
+    name: blockscout
+    type: application
+    urls:
+    - https://paradeum-team.github.io/helm-charts/blockscout/blockscout-0.1.5.tgz
+    version: 0.1.5
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/paradeum-team/geth-helm-charts/tree/main/blockscout
+        - name: Source
+          url: https://github.com/paradeum-team/blockscout
+    apiVersion: v2
     appVersion: 13573befcc6b94c68b4a05554377e101f36bd7fe
-    created: "2022-11-17T17:57:49.706625+08:00"
+    created: "2022-12-16T12:08:20.653404+08:00"
     description: A Helm chart for Kubernetes
     digest: bb12abb8653a48638127fdb61faff965b4d3b85b7e76db14c865bce2cc28d61f
     home: https://github.com/paradeum-team/geth-helm-charts/tree/main/blockscout
@@ -172,7 +196,7 @@ entries:
           url: https://github.com/blockscout/blockscout
     apiVersion: v2
     appVersion: v4.1.8-beta.3
-    created: "2022-11-17T17:57:49.704714+08:00"
+    created: "2022-12-16T12:08:20.651511+08:00"
     description: A Helm chart for Kubernetes
     digest: 0a1c2c73f8b44669ccd18cb5803e58c1e5cc07eb2e7418f2465e3e92ad2c4493
     home: https://github.com/blockscout/blockscout
@@ -190,7 +214,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: v4.1.3-beta.3
-    created: "2022-11-17T17:57:49.703014+08:00"
+    created: "2022-12-16T12:08:20.649588+08:00"
     description: A Helm chart for Kubernetes
     digest: 5644f2a9c2c4ed8e1fcbbe669c0a120c38d429efab7b1ef5724e6fb7a0033c27
     name: blockscout
@@ -200,8 +224,48 @@ entries:
     version: 0.1.0
   geth:
   - apiVersion: v2
+    appVersion: 1.10.26
+    created: "2022-12-16T12:08:20.659884+08:00"
+    description: A Helm chart for Ethereum geth client
+    digest: bcd9bf4e40d16eae10c162c5abfbcdab59f04602d75f49922a1d8f1bcd840991
+    home: https://ethereum.org/
+    keywords:
+    - ethereum
+    maintainers:
+    - email: leo@vulcan.link
+      name: Leo Vigna
+    - email: 75710541@qq.com
+      name: liujinye
+    name: geth
+    sources:
+    - https://github.com/paradeum-team/geth-charts
+    type: application
+    urls:
+    - https://paradeum-team.github.io/helm-charts/geth/geth-0.2.12.tgz
+    version: 0.2.12
+  - apiVersion: v2
+    appVersion: 1.10.26
+    created: "2022-12-16T12:08:20.658171+08:00"
+    description: A Helm chart for Ethereum geth client
+    digest: d5850a80461f89bef76060e7d38e0401ecfc097b92e1a39cc2343873b0e57467
+    home: https://ethereum.org/
+    keywords:
+    - ethereum
+    maintainers:
+    - email: leo@vulcan.link
+      name: Leo Vigna
+    - email: 75710541@qq.com
+      name: liujinye
+    name: geth
+    sources:
+    - https://github.com/paradeum-team/geth-charts
+    type: application
+    urls:
+    - https://paradeum-team.github.io/helm-charts/geth/geth-0.2.11.tgz
+    version: 0.2.11
+  - apiVersion: v2
     appVersion: 1.10.17
-    created: "2022-11-17T17:57:49.708206+08:00"
+    created: "2022-12-16T12:08:20.65642+08:00"
     description: A Helm chart for Ethereum geth client
     digest: e53e14a5167b274fd8ba72387cbadc8a600756f997fb428cd816112bcb560782
     home: https://ethereum.org/
@@ -221,7 +285,7 @@ entries:
     version: 0.2.10
   - apiVersion: v2
     appVersion: 1.10.17
-    created: "2022-11-17T17:57:49.709543+08:00"
+    created: "2022-12-16T12:08:20.661367+08:00"
     description: A Helm chart for Ethereum geth client
     digest: f2ec57e5742673f15c29f36706bbbd7ef296a12e8e9c566aee070142f8d7e1fd
     home: https://ethereum.org/
@@ -247,7 +311,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-11-17T17:57:49.725334+08:00"
+    created: "2022-12-16T12:08:20.675831+08:00"
     description: IPFS Cluster chart
     digest: 24c72e068557808d2159c439a4f0bb70cfb3c37730d9deb8ffc80ea3ab6b804f
     home: https://ipfscluster.io/
@@ -269,7 +333,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-11-17T17:57:49.723571+08:00"
+    created: "2022-12-16T12:08:20.674583+08:00"
     description: IPFS Cluster chart
     digest: b8d75049c2f27fedcdd6844cd4d7ed15c0982f0cbd5e8706768c81d4d6ea049e
     home: https://ipfscluster.io/
@@ -291,7 +355,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-11-17T17:57:49.72222+08:00"
+    created: "2022-12-16T12:08:20.673033+08:00"
     description: IPFS Cluster chart
     digest: 29c45a988fef490cb609ea4e2607015808ed1e907aa07cef3dd46d67ed81be0a
     home: https://ipfscluster.io/
@@ -313,7 +377,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-11-17T17:57:49.720832+08:00"
+    created: "2022-12-16T12:08:20.671753+08:00"
     description: IPFS Cluster chart
     digest: 7c190a1a4044153f2d6fc016c495ce591c7ada1a5a849cbd7cdf01c0e25b0d55
     home: https://ipfscluster.io/
@@ -335,7 +399,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-11-17T17:57:49.717938+08:00"
+    created: "2022-12-16T12:08:20.670446+08:00"
     description: IPFS Cluster chart
     digest: 3a63c9feb5e1f886faa8c84f52cf14059bf6dd3d3ee8de788e9f6a048fa712c9
     home: https://ipfscluster.io/
@@ -357,7 +421,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-11-17T17:57:49.716561+08:00"
+    created: "2022-12-16T12:08:20.669245+08:00"
     description: IPFS Cluster chart
     digest: 9b2449da6eac19a60a18e4818a53d0de12d0181a3b373a5c671077208a277c51
     home: https://ipfscluster.io/
@@ -379,7 +443,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-11-17T17:57:49.715202+08:00"
+    created: "2022-12-16T12:08:20.668068+08:00"
     description: IPFS Cluster chart
     digest: 7a142726ac6ee65203deb0abe5fe0f2a5a473e052c7b042ff206ba8ed72b2c57
     home: https://ipfscluster.io/
@@ -401,7 +465,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-11-17T17:57:49.713727+08:00"
+    created: "2022-12-16T12:08:20.666799+08:00"
     description: IPFS Cluster chart
     digest: 8c3e2f0fdb9266d439a11415615174fc9d6e9bfdb85ba2eef6a06eb396bad137
     home: https://ipfscluster.io/
@@ -423,7 +487,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-11-17T17:57:49.71236+08:00"
+    created: "2022-12-16T12:08:20.66554+08:00"
     description: IPFS Cluster chart
     digest: bd281028ee3478186181b8be1902c90a6c006fefa823a38b879a1e667f1afc0c
     home: https://ipfscluster.io/
@@ -445,7 +509,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: 1.0.2
-    created: "2022-11-17T17:57:49.711081+08:00"
+    created: "2022-12-16T12:08:20.662903+08:00"
     description: IPFS Cluster chart
     digest: 10870264266e5bcc8a64f16a51ad0c8d84250b4d59b3e2b218c894c3fe4d69b7
     home: https://ipfscluster.io/
@@ -467,7 +531,7 @@ entries:
         - name: Source
           url: https://github.com/ipfs-cluster/ipfs-cluster
     apiVersion: v2
-    created: "2022-11-17T17:57:49.726536+08:00"
+    created: "2022-12-16T12:08:20.677045+08:00"
     description: IPFS Cluster chart
     digest: 0a5935923d3157f88d1a54235e181f2b54bf7ac0bea26fa0f14b0f92601f63b3
     home: https://ipfscluster.io/
@@ -491,7 +555,7 @@ entries:
           url: https://github.com/WalletConnect/relay
     apiVersion: v2
     appVersion: v2.1.3-rc.1
-    created: "2022-11-17T17:57:49.729347+08:00"
+    created: "2022-12-16T12:08:20.680833+08:00"
     description: A Helm chart for Kubernetes
     digest: 6ac3cf7db0f9910f0b461ea957fd01f8f27f8f837fcb91b90731a7a0ae59bbe5
     home: https://github.com/WalletConnect/relay
@@ -516,7 +580,7 @@ entries:
           url: https://github.com/WalletConnect/relay
     apiVersion: v2
     appVersion: 63e8f41
-    created: "2022-11-17T17:57:49.728831+08:00"
+    created: "2022-12-16T12:08:20.679712+08:00"
     description: A Helm chart for Kubernetes
     digest: 4fb6549374dd0e9ae577884bf23a38679055b0798c73260e0265785cbadbe126
     home: https://github.com/WalletConnect/relay
@@ -541,7 +605,7 @@ entries:
           url: https://github.com/WalletConnect/relay
     apiVersion: v2
     appVersion: v2.0.0
-    created: "2022-11-17T17:57:49.727725+08:00"
+    created: "2022-12-16T12:08:20.678427+08:00"
     description: A Helm chart for Kubernetes
     digest: 907aec49830595ab57ab837e70d4aaa25cf4d6863c3877211ca4b61a1340bf22
     home: https://github.com/WalletConnect/relay
@@ -558,4 +622,4 @@ entries:
     urls:
     - https://paradeum-team.github.io/helm-charts/walletconnect-relay/walletconnect-relay-0.1.0.tgz
     version: 0.1.0
-generated: "2022-11-17T17:57:49.693969+08:00"
+generated: "2022-12-16T12:08:20.64056+08:00"
